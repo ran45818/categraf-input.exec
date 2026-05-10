@@ -11,7 +11,7 @@ Filebeat 指标采集工具，用于将 Filebeat Stats API 的数据转换为 Pr
 | **失败重试** | API 调用失败时的自动重试机制 |
 | **健康检查** | 采集前检查 Filebeat 服务状态 |
 
-## 项目结构
+### 项目结构
 
 ```
 filebeat-events/
