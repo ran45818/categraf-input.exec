@@ -126,7 +126,7 @@ go build -o filebeat-events
 
 # 交叉编译 Linux
 GOOS=linux GOARCH=amd64 go build -o filebeat-events
-
+go env -w GOOS=linux GOARCH=amd64 && go build -o filebeat-events && go env -w GOOS=windows GOARCH=amd64
 # 交叉编译 Windows
 GOOS=windows GOARCH=amd64 go build -o filebeat-events.exe
 ```
